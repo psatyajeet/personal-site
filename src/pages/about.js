@@ -6,7 +6,11 @@ export default () => (
     <h3>About me</h3>
     <p>
       I live in San Francisco and am a software engineer{' '}
-      <a target="_blank" href="https://www.bitwiseinvestments.com/">
+      <a
+        target="_blank"
+        rel="noopener noreferrer"
+        href="https://www.bitwiseinvestments.com/"
+      >
         Bitwise Asset Management
       </a>
       .
