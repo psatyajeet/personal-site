@@ -3,11 +3,18 @@ import Layout from '../components/layout'
 
 export default () => (
   <Layout>
-    <div>
-      <h1>About me</h1>
-      <p>
-        I’m good enough, I’m smart enough, and gosh darn it, people like me!
-      </p>
-    </div>
+    <h3>About me</h3>
+    <p>
+      I live in San Francisco and am a software engineer{' '}
+      <a target="_blank" href="https://www.bitwiseinvestments.com/">
+        Bitwise Asset Management
+      </a>
+      .
+    </p>
+    <ul>
+      <li>Born in India, NJ raised.</li>
+      <li>Princeton '15 studied ORFE</li>
+      <li>Triathlete (aspiring Ironman) , board game enthusiast</li>
+    </ul>
   </Layout>
 )
