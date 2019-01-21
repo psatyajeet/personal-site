@@ -10,35 +10,23 @@ const Container = styled.div`
   padding: 0px 32px;
 
   @media (min-width: 768px) {
-    margin: 120px auto;
-    padding: 0px;
+    margin: 80px auto;
     display: flex;
-    max-width: 600px;
-  }
-
-  @media (min-width: 1024px) {
-    max-width: 900px;
-  }
-
-  @media (min-width: 1270px) {
-    max-width: 1240px;
   }
 `
 
 const Sidebar = styled.div`
+  margin: 0px 24px 0px 80px;
+  position: fixed;
   width: 180px;
 `
 
 const Body = styled.div`
   font-size: 18px;
-  max-width: 500px;
 
   @media (min-width: 768px) {
+    margin-left: 284px;
     padding: 0px 1rem;
-  }
-
-  @media (min-width: 1270px) {
-    max-width: 1050px;
   }
 `
 
