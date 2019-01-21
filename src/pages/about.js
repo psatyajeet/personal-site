@@ -1,24 +1,32 @@
 import React from 'react'
+
 import Layout from '../components/layout'
+import ExternalLink from '../components/ExternalLink'
 
 export default () => (
   <Layout>
     <h3>About me</h3>
     <p>
       I live in San Francisco and am a software engineer{' '}
-      <a
-        target="_blank"
-        rel="noopener noreferrer"
-        href="https://www.bitwiseinvestments.com/"
-      >
+      <ExternalLink to="https://www.bitwiseinvestments.com/">
         Bitwise Asset Management
-      </a>
+      </ExternalLink>
       .
     </p>
     <ul>
-      <li>Born in India, NJ raised.</li>
-      <li>Princeton '15 studied ORFE</li>
-      <li>Triathlete (aspiring Ironman) , board game enthusiast</li>
+      <li>Born in India, raised in NJ</li>
+      <li>Princeton '15, studied ORFE</li>
+      <li>Generally interested in fintech and healthcare tech</li>
+      <li>Die-hard New York Giants, Arsenal, and Brooklyn Nets fan</li>
+      <li>
+        Triathlete (aspiring Ironman), board game enthusiast, recreational
+        soccer and football player
+      </li>
     </ul>
+    Follow me on{' '}
+    <ExternalLink to="https://www.strava.com/athletes/10393092">
+      Strava
+    </ExternalLink>
+    !
   </Layout>
 )
