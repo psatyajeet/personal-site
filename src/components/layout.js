@@ -17,6 +17,7 @@ const Sidebar = styled.div`
 const Body = styled.div`
   padding: 0px 1rem;
   font-size: 18px;
+  max-width: 1050px;
 `
 
 const Img = styled.img`
