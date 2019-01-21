@@ -16,16 +16,19 @@ const Container = styled.div`
 `
 
 const Sidebar = styled.div`
-  margin: 0px 24px 0px 80px;
-  position: fixed;
-  width: 180px;
+  width: 120px;
+
+  @media (min-width: 768px) {
+    margin: 0px 48px 0px 80px;
+    position: fixed;
+  }
 `
 
 const Body = styled.div`
   font-size: 18px;
 
   @media (min-width: 768px) {
-    margin-left: 284px;
+    margin-left: 248px;
     padding: 0px 1rem;
   }
 `
