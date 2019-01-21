@@ -1,13 +1,28 @@
 import React from 'react'
 import styled from 'styled-components'
 import { Link } from 'gatsby'
+import ExternalLink from './ExternalLink'
 
 import profilePic from '../images/profile-pic.png'
 
 const Container = styled.div`
-  display: flex;
-  max-width: 1240px;
-  margin: 120px auto;
+  margin: 60px auto;
+  padding: 0px 32px;
+
+  @media (min-width: 768px) {
+    margin: 120px auto;
+    padding: 0px;
+    display: flex;
+    max-width: 600px;
+  }
+
+  @media (min-width: 1024px) {
+    max-width: 900px;
+  }
+
+  @media (min-width: 1270px) {
+    max-width: 1240px;
+  }
 `
 
 const Sidebar = styled.div`
@@ -15,8 +30,16 @@ const Sidebar = styled.div`
 `
 
 const Body = styled.div`
-  padding: 0px 1rem;
   font-size: 18px;
+  max-width: 500px;
+
+  @media (min-width: 768px) {
+    padding: 0px 1rem;
+  }
+
+  @media (min-width: 1270px) {
+    max-width: 1050px;
+  }
 `
 
 const Img = styled.img`
@@ -25,20 +48,38 @@ const Img = styled.img`
   border-radius: 50%;
 `
 
-const StyledLink = styled(Link)`
-  float: left;
-  clear: left;
-`
+const StyledLink = styled(Link)``
+
+const StyledExternalLink = styled(ExternalLink)``
 
 export default ({ children }) => (
   <Container>
     <Sidebar>
       <Img src={profilePic} alt="me" />
-      <StyledLink to="/">Writings</StyledLink>
-      <StyledLink to="/about">About</StyledLink>
-      <StyledLink to="/about">Travel</StyledLink>
+      <div>
+        <StyledLink to="/">Writings</StyledLink>
+      </div>
+      <div>
+        <StyledLink to="/about">About</StyledLink>
+      </div>
+      {/* <StyledLink to="/about">Travel</StyledLink>
       <StyledLink to="/books">Books</StyledLink>
-      <StyledLink to="/podcasts">Podcasts</StyledLink>
+      <StyledLink to="/podcasts">Podcasts</StyledLink> */}
+      <div>
+        <StyledExternalLink to="https://github.com/psatyajeet">
+          Github
+        </StyledExternalLink>
+      </div>
+      <div>
+        <StyledExternalLink to="https://twitter.com/satyajeet_pal">
+          Twitter
+        </StyledExternalLink>
+      </div>
+      <div>
+        <StyledExternalLink to="https://www.linkedin.com/in/satyajeetpal/">
+          LinkedIn
+        </StyledExternalLink>
+      </div>
     </Sidebar>
     <Body>{children}</Body>
   </Container>
