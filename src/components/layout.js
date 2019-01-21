@@ -42,6 +42,10 @@ const Body = styled.div`
   }
 `
 
+const ImgLink = styled(Link)`
+  background-image: none;
+`
+
 const Img = styled.img`
   width: 120px;
   height: 120px;
@@ -55,7 +59,9 @@ const StyledExternalLink = styled(ExternalLink)``
 export default ({ children }) => (
   <Container>
     <Sidebar>
-      <Img src={profilePic} alt="me" />
+      <ImgLink to="/">
+        <Img src={profilePic} alt="me" />
+      </ImgLink>
       <div>
         <StyledLink to="/">Writings</StyledLink>
       </div>

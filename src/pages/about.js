@@ -7,7 +7,7 @@ export default () => (
   <Layout>
     <h3>About me</h3>
     <p>
-      I live in San Francisco and am a software engineer{' '}
+      I live in San Francisco and am a software engineer at{' '}
       <ExternalLink to="https://www.bitwiseinvestments.com/">
         Bitwise Asset Management
       </ExternalLink>
