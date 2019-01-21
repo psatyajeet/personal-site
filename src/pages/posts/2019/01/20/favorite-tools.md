@@ -9,7 +9,7 @@ I'm sharing my personal toolbox and hopefully I inspire others to do the same!
 
 ### General
 
-- [**nvALT**](http://brettterpstra.com/projects/nvalt/): Do you take notes that you like the _reference_ often? Perhaps it's your list of restaurants or it's a list of obscure, but useful SQL commands. nvALT is a great note taking tool that heavily relies on keyboard shortcuts. The search and indexing is the killer feature in this tool, it's super easy to find your old notes. You can also connect your nvALT to [**Simplenote**](https://simplenote.com/) to sync with iOS or Android.
+- [**nvALT**](http://brettterpstra.com/projects/nvalt/): Do you take notes that you like to reference often? Perhaps it's your list of restaurants or it's a list of obscure, but useful SQL commands. nvALT is a great note taking tool that heavily relies on keyboard shortcuts. The search and indexing is the killer feature in this tool, it's super easy to find your old notes. You can also connect your nvALT to [**Simplenote**](https://simplenote.com/) to sync with iOS or Android.
 
   _I have to directly attribute this tool combo to Shubhro. Life changing, thank you 🙏🏽_
 
