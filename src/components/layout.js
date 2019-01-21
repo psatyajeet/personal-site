@@ -10,35 +10,26 @@ const Container = styled.div`
   padding: 0px 32px;
 
   @media (min-width: 768px) {
-    margin: 120px auto;
-    padding: 0px;
+    margin: 80px auto;
     display: flex;
-    max-width: 600px;
-  }
-
-  @media (min-width: 1024px) {
-    max-width: 900px;
-  }
-
-  @media (min-width: 1270px) {
-    max-width: 1240px;
   }
 `
 
+const SidebarContainer = styled.div`
+  margin: 0px 24px 0px 80px;
+  width: 284px;
+`
+
 const Sidebar = styled.div`
+  position: fixed;
   width: 180px;
 `
 
 const Body = styled.div`
   font-size: 18px;
-  max-width: 500px;
 
   @media (min-width: 768px) {
     padding: 0px 1rem;
-  }
-
-  @media (min-width: 1270px) {
-    max-width: 1050px;
   }
 `
 
@@ -58,35 +49,37 @@ const StyledExternalLink = styled(ExternalLink)``
 
 export default ({ children }) => (
   <Container>
-    <Sidebar>
-      <ImgLink to="/">
-        <Img src={profilePic} alt="me" />
-      </ImgLink>
-      <div>
-        <StyledLink to="/">Writings</StyledLink>
-      </div>
-      <div>
-        <StyledLink to="/about">About</StyledLink>
-      </div>
-      {/* <StyledLink to="/about">Travel</StyledLink>
+    <SidebarContainer>
+      <Sidebar>
+        <ImgLink to="/">
+          <Img src={profilePic} alt="me" />
+        </ImgLink>
+        <div>
+          <StyledLink to="/">Writings</StyledLink>
+        </div>
+        <div>
+          <StyledLink to="/about">About</StyledLink>
+        </div>
+        {/* <StyledLink to="/about">Travel</StyledLink>
       <StyledLink to="/books">Books</StyledLink>
       <StyledLink to="/podcasts">Podcasts</StyledLink> */}
-      <div>
-        <StyledExternalLink to="https://github.com/psatyajeet">
-          Github
-        </StyledExternalLink>
-      </div>
-      <div>
-        <StyledExternalLink to="https://twitter.com/satyajeet_pal">
-          Twitter
-        </StyledExternalLink>
-      </div>
-      <div>
-        <StyledExternalLink to="https://www.linkedin.com/in/satyajeetpal/">
-          LinkedIn
-        </StyledExternalLink>
-      </div>
-    </Sidebar>
+        <div>
+          <StyledExternalLink to="https://github.com/psatyajeet">
+            Github
+          </StyledExternalLink>
+        </div>
+        <div>
+          <StyledExternalLink to="https://twitter.com/satyajeet_pal">
+            Twitter
+          </StyledExternalLink>
+        </div>
+        <div>
+          <StyledExternalLink to="https://www.linkedin.com/in/satyajeetpal/">
+            LinkedIn
+          </StyledExternalLink>
+        </div>
+      </Sidebar>
+    </SidebarContainer>
     <Body>{children}</Body>
   </Container>
 )
