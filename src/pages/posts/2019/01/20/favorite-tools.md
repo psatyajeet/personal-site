@@ -6,7 +6,7 @@ month: '01'
 day: '20'
 ---
 
-Whenever someone shows something on their computer, I notice their personal setup and hacks. These tools are found over time and eventually make up a personal toolbox.
+Whenever someone shows something on their computer, I notice their personal setup and hacks. These tools are collected over time and eventually make up a personal toolbox.
 
 I'd like to share my personal toolbox and hopefully inspire others start to do the same!
 
