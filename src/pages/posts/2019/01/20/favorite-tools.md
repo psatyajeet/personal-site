@@ -1,14 +1,11 @@
 ---
 title: 'My Toolbox'
 date: '2019-01-20'
-year: '2019'
-month: '01'
-day: '20'
 ---
 
-Whenever someone shows something on their computer, I notice their personal setup and hacks. These tools are collected over time and eventually make up a personal toolbox.
+Whenever I watch someone use their computer, I notice their personal setup and hacks. People collect these tools over time and eventually make up a unique and personal toolbox.
 
-I'd like to share my personal toolbox and hopefully inspire others start to do the same!
+I'm sharing my personal toolbox and hopefully I inspire others to do the same!
 
 ### Productivity
 
