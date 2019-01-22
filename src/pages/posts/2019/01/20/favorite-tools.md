@@ -11,7 +11,7 @@ I'm sharing my personal toolbox and hopefully I inspire others to do the same!
 
 - [**nvALT**](http://brettterpstra.com/projects/nvalt/): Do you take notes that you like to reference often? Perhaps it's your list of restaurants or it's a list of obscure, but useful SQL commands. nvALT is a great note taking tool that heavily relies on keyboard shortcuts. The search and indexing is the killer feature in this tool, it's super easy to find your old notes. You can also connect your nvALT to [**Simplenote**](https://simplenote.com/) to sync with iOS or Android.
 
-  _I have to directly attribute this tool combo to Shubhro. Life changing, thank you 🙏🏽_
+  _I have to directly attribute this tool combo to Shubhro S. Life changing, thank you 🙏🏽_
 
 ### Productivity
 
@@ -24,6 +24,8 @@ I'm sharing my personal toolbox and hopefully I inspire others to do the same!
 - [**Spectacle**](https://www.spectacleapp.com/): Makes it super easy to resize windows precisely or snap windows side-by-side.
 
 - [**GIPHY Capture**](https://giphy.com/apps/giphycapture): Whenever I want to show my parents how to do something on their computer, I create a short GIF for them using this tool. Also useful for product demos at work.
+
+  _This one comes from the product GIF master, Joseph A._
 
 ### Chrome Extensions
 
