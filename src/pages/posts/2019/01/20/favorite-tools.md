@@ -6,6 +6,7 @@ date: '2019-01-20'
 When I watch someone use their computer, I notice their personal setup and hacks. People collect these tools over into a unique and personal toolbox.
 
 I'm sharing my personal toolbox and I hope can inspire others to do the same!
+_Note: I use a Mac for everything, so most of these are for MacOS_
 
 ### General
 
