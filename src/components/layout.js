@@ -1,16 +1,17 @@
+import { Link } from 'gatsby'
 import React from 'react'
 import styled from 'styled-components'
-import { Link } from 'gatsby'
-import ExternalLink from './ExternalLink'
-
 import profilePic from '../images/profile-pic.png'
+import ExternalLink from './ExternalLink'
 
 const Container = styled.div`
   margin: 60px auto;
   padding: 0px 32px;
 
-  @media (min-width: 768px) {
+  @media (min-width: 1024px) {
+    width: 920px;
     margin: 80px auto;
+    padding: 0px;
     display: flex;
   }
 `
@@ -18,7 +19,7 @@ const Container = styled.div`
 const Sidebar = styled.div`
   width: 120px;
 
-  @media (min-width: 768px) {
+  @media (min-width: 1024px) {
     margin: 0px 48px 0px 80px;
     position: fixed;
   }
@@ -27,7 +28,8 @@ const Sidebar = styled.div`
 const Body = styled.div`
   font-size: 18px;
 
-  @media (min-width: 768px) {
+  @media (min-width: 1024px) {
+    width: 800px;
     margin-left: 248px;
     padding: 0px 1rem;
   }
