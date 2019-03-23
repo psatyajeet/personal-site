@@ -1,6 +1,8 @@
 import { Link } from 'gatsby'
 import React from 'react'
+import { Helmet } from 'react-helmet'
 import styled from 'styled-components'
+import favicon from '../images/favicon.ico'
 import profilePic from '../images/profile-pic.png'
 import ExternalLink from './ExternalLink'
 
@@ -49,37 +51,50 @@ const StyledLink = styled(Link)``
 
 const StyledExternalLink = styled(ExternalLink)``
 
-export default ({ children }) => (
-  <Container>
-    <Sidebar>
-      <ImgLink to="/">
-        <Img src={profilePic} alt="me" />
-      </ImgLink>
-      <div>
-        <StyledLink to="/">Writings</StyledLink>
-      </div>
-      <div>
-        <StyledLink to="/about">About</StyledLink>
-      </div>
-      {/* <StyledLink to="/about">Travel</StyledLink>
+export default ({ children, title, description, keywords }) => {
+  return (
+    <Container>
+      <Helmet
+        title={`${title} | Satyajeet Pal`}
+        meta={[
+          { name: 'description', content: description },
+          { name: 'keywords', content: keywords },
+        ]}
+        link={[{ rel: 'shortcut icon', type: 'image/png', href: `${favicon}` }]}
+      />
+      <Sidebar>
+        <ImgLink to="/">
+          <Img src={profilePic} alt="me" />
+        </ImgLink>
+        <div>
+          <StyledLink to="/">Writings</StyledLink>
+        </div>
+        <div>
+          <StyledLink to="/about">About</StyledLink>
+        </div>
+        {/* <StyledLink to="/about">Travel</StyledLink>
       <StyledLink to="/books">Books</StyledLink>
       <StyledLink to="/podcasts">Podcasts</StyledLink> */}
-      <div>
-        <StyledExternalLink to="https://github.com/psatyajeet">
-          Github
-        </StyledExternalLink>
-      </div>
-      <div>
-        <StyledExternalLink to="https://twitter.com/satyajeet_pal">
-          Twitter
-        </StyledExternalLink>
-      </div>
-      <div>
-        <StyledExternalLink to="https://www.linkedin.com/in/satyajeetpal/">
-          LinkedIn
-        </StyledExternalLink>
-      </div>
-    </Sidebar>
-    <Body>{children}</Body>
-  </Container>
-)
+        <div>
+          <StyledExternalLink to="https://github.com/psatyajeet">
+            Github
+          </StyledExternalLink>
+        </div>
+        <div>
+          <StyledExternalLink to="https://twitter.com/satyajeet_pal">
+            Twitter
+          </StyledExternalLink>
+        </div>
+        <div>
+          <StyledExternalLink to="https://www.linkedin.com/in/satyajeetpal/">
+            LinkedIn
+          </StyledExternalLink>
+        </div>
+        <div>
+          <StyledExternalLink to="/rss.xml">RSS </StyledExternalLink>
+        </div>
+      </Sidebar>
+      <Body>{children}</Body>
+    </Container>
+  )
+}

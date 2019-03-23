@@ -1,6 +1,6 @@
+import { graphql, Link } from 'gatsby'
 import React from 'react'
 import styled from 'styled-components'
-import { Link, graphql } from 'gatsby'
 import Layout from '../components/layout'
 
 const Section = styled.h4`
@@ -13,9 +13,9 @@ const Date = styled.span`
 
 export default ({ data }) => {
   return (
-    <Layout>
+    <Layout title="Home" description="Home">
       <h3>Writings</h3>
-      {data.allMarkdownRemark.edges.map(({ node }) => (
+      {data.allMarkdownRemark.edges.reverse().map(({ node }) => (
         <div key={node.id}>
           <Link to={node.fields.slug}>
             <Section>

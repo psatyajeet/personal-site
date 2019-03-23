@@ -1,10 +1,9 @@
 import React from 'react'
-
-import Layout from '../components/layout'
 import ExternalLink from '../components/ExternalLink'
+import Layout from '../components/layout'
 
 export default () => (
-  <Layout>
+  <Layout title="About" description="About Me">
     <h3>About me</h3>
     <p>
       I live in San Francisco and am a software engineer at{' '}
