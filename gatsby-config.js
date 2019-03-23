@@ -3,6 +3,7 @@ module.exports = {
     title: `Satyajeet Pal`,
     description: `Personal blog.`,
     author: `@psatyajeet`,
+    siteUrl: `https://www.satyajeetpal.com/`,
   },
   plugins: [
     {
@@ -27,6 +28,7 @@ module.exports = {
       },
     },
     `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-feed`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
