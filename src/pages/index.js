@@ -12,6 +12,7 @@ const Date = styled.span`
 `
 
 export default ({ data }) => {
+  console.log(data.allMarkdownRemark.edges.reverse())
   return (
     <Layout title="Home" description="Home">
       <h3>Writings</h3>
@@ -31,7 +32,7 @@ export default ({ data }) => {
 
 export const query = graphql`
   query {
-    allMarkdownRemark {
+    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
       totalCount
       edges {
         node {
