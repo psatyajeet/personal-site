@@ -27,3 +27,5 @@ About a quarter of the time, I’ll pause the book I’m currently reading and s
 This change has been one small step towards building a more consistent reading habit.
 
 [^1]_This is not an indictment of public libraries. For those who cannot afford to buy books, libraries are an invaluable resource. I am very thankful for the impact of the Plainsboro Public Library and its staff on my early development._
+
+Many thanks to Osman and Shubhro for helping revise drafts of this post. Also, check out Shubhro's great piece about the [rules for reading books](http://www.shubhro.com/2019/07/11/rules-reading/).
