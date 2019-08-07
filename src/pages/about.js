@@ -19,7 +19,7 @@ export default () => (
       <li>Die-hard New York Giants, Arsenal, and Brooklyn Nets fan</li>
       <li>
         Triathlete (aspiring Ironman), board game enthusiast, recreational
-        soccer and football player
+        soccer, and football player
       </li>
     </ul>
     Follow me on{' '}
