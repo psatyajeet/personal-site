@@ -81,7 +81,7 @@ export default ({ children, title, description, keywords }) => {
           </StyledExternalLink>
         </div>
         <div>
-          <StyledExternalLink to="https://twitter.com/satyajeet_pal">
+          <StyledExternalLink to="https://twitter.com/tripalthreat">
             Twitter
           </StyledExternalLink>
         </div>
