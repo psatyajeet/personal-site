@@ -1,13 +1,15 @@
-import { graphql, Link } from 'gatsby'
-import React from 'react'
-import styled from 'styled-components'
-import Layout from '../components/layout'
+import { graphql, Link } from 'gatsby';
+import React from 'react';
+import styled from 'styled-components';
+
+import Layout from '../components/layout';
 
 const Section = styled.h4`
   margin-bottom: 12px;
 `
 
-const Date = styled.span`
+const Date = styled.div`
+  margin-top: 8px;
   color: #bbb;
 `
 
@@ -20,7 +22,8 @@ export default ({ data }) => {
         <div key={node.id}>
           <Link to={node.fields.slug}>
             <Section>
-              {node.frontmatter.title} <Date>— {node.frontmatter.date}</Date>
+              <div>{node.frontmatter.title}</div>
+              <Date>{node.frontmatter.date}</Date>
             </Section>
             <p>{node.excerpt}</p>
           </Link>
@@ -39,7 +42,7 @@ export const query = graphql`
           id
           frontmatter {
             title
-            date(formatString: "DD MMMM, YYYY")
+            date(formatString: "MMMM DD, YYYY")
           }
           fields {
             slug
