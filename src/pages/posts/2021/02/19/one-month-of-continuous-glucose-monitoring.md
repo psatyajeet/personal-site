@@ -1,6 +1,6 @@
 ---
 title: 'One Month of Continuous Glucose Monitoring with Levels'
-date: '2021-02-16'
+date: '2021-02-19'
 ---
 
 In June 2020, I experimented with a one month continuous glucose monitoring (CGM) program with a startup called[ Levels](https://www.levelshealth.com/). The data from the program led to meaningful shifts in my behavior and it was fun to see the impact of small changes in my diet. Even though it is now almost eight months later, I decided it was worthwhile to share a few of my observations.
