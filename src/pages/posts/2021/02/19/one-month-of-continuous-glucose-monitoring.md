@@ -97,7 +97,7 @@ I have found that the best way to create long-standing change in something is to
 
 Over the four week program, I saw a 100% reduction in high glucose events. High glucose and repeated spikes are strongly correlated with inflammation, high insulin, and cardiometabolic dysfunction[^2].
 
-![High Glucose Events Chart](./high-glucose-events.png)
+![High Glucose Events Chart](./high-glucose-event.png)
 
 This may be a bit drastic and perhaps a sign I was over zealous on my carbohydrate restriction by Week 4. However, many of the habits that I changed over the four weeks have been sustained even after I've stopped using my CGM. I believe that the CGM data played a big part because I could see the immediate effects of my changes in behavior.
 
