@@ -7,7 +7,7 @@ In June 2020, I experimented with a one month continuous glucose monitoring (CGM
 
 ## What is CGM?
 
-A continuous glucose monitor is a small sensor applied to the skin that can continuously monitor your blood sugar level in real time. It contains a tiny filament that extends a few centimeters into the skin and takes blood sugar readings in between your cells. The sensor includes a transmitter to send the readings to your phone wirelessly. The Levels program specifically uses the[ FreeStyle Libre](https://www.freestylelibre.us/) system.
+A continuous glucose monitor is a small sensor applied to the skin that can continuously monitor your blood sugar level in real time. It contains a tiny filament that extends a few centimeters into the skin and takes blood sugar readings in between your cells. The sensor includes a transmitter to send the readings to your phone wirelessly. The Levels program specifically uses the [FreeStyle Libre](https://www.freestylelibre.us/) system.
 
 ## Why CGM?
 
@@ -15,7 +15,7 @@ There is a lot of information floating around about which foods and diets are mo
 
 The reality is that everyone responds to food in different ways. Our genetics, physical make-up, and other factors can all influence how diet affects our bodies. It doesn't make sense to treat blanket recommendations as applicable to everyone.
 
-Still, there is substantial evidence that elevated glucose levels and post-meal glucose spikes can lead to metabolic dysfunction over time and increase risk of a lot of major diseases. If you want more of an in-depth look into why this is the case, I recommend the Levels Blog and the[ article on creating an optimal diet through CGM](https://www.levelshealth.com/blog/optimal-diet).
+Still, there is substantial evidence that elevated glucose levels and post-meal glucose spikes can lead to metabolic dysfunction over time and increase risk of a lot of major diseases. If you want more of an in-depth look into why this is the case, I recommend the Levels Blog and the [article on creating an optimal diet through CGM](https://www.levelshealth.com/blog/optimal-diet).
 
 By helping you track your glucose levels, continuous glucose monitoring gives you a personalized guide on how different foods impact your body. You can get immediate feedback after each meal and workout and modify your behavior based on what you see.
 
