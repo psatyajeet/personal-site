@@ -24,6 +24,32 @@ module.exports = {
               rel: 'noopener',
             },
           },
+          {
+            resolve: `gatsby-remark-images`,
+            options: {
+              // It's important to specify the maxWidth (in pixels) of
+              // the content container as this plugin uses this as the
+              // base for generating different widths of each image.
+              maxWidth: 300,
+            },
+          },
+          {
+            resolve: `gatsby-remark-image-attributes`,
+            options: {
+              // ?Boolean=true
+              //   If true (the default), all CSS
+              //   property names will be recognized
+              //   as styleAttribute.
+              styleAttributes: true,
+
+              // ?Boolean=false
+              //   If true, all attributes that
+              //   aren't styleAttributes, will be
+              //   added as data-* attributes to the
+              //   image.
+              dataAttributes: false,
+            },
+          },
         ],
       },
     },
@@ -47,7 +73,7 @@ module.exports = {
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        // icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/Pal 2.jpg`, // This path is relative to the root of the site.
       },
     },
     {
