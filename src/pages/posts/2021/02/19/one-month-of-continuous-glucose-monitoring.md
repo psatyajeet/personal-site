@@ -135,7 +135,7 @@ In 2021, I have started experimenting with fasting, with each fast lasting 24+ h
 - Does exercise affect how my body processes carbohydrates? The same foods, eaten after a long run or bike ride, resulted in a much smaller blood glucose spike. I love a good pastry and it's nice to know that I can eat them after a workout with less guilt.
 - Does walking before or after meals affect my blood glucose?
 - Does eating carbs first vs carbs last during a meal make a difference on my blood glucose?
-- How do different fruits affect my blood glucose?
+- How do various fruits affect my blood glucose?
 
 ## Closing Remarks
 
