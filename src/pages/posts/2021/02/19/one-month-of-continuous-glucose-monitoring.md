@@ -12,7 +12,7 @@ A continuous glucose monitor is a small sensor applied to the skin that can moni
 
 ![Blood glucose during a typical afternoon of meals](./example-chart.jpg 'Thai food has a high blood glucose impact!')
 
-My lunch at around 1pm of Korean mapo tofu barely registered. I then had a small bowl of Ben and Jerry's ice cream around 3:30pm. At 7pm, I had a Thai dinner of pumpkin curry and Pad Kee Mao. The Thai food had quite an impact on my blood glucose!
+My lunch at around 1pm of Korean-style mapo tofu (mapadubu) barely registered. I then had a small bowl of Ben and Jerry's ice cream around 3:30pm. At 7pm, I had a Thai dinner of pumpkin curry and Pad Kee Mao. The Thai food had quite an impact on my blood glucose!
 
 ## Why CGM?
 
@@ -139,7 +139,7 @@ In 2021, I have started experimenting with fasting, with each fast lasting 24+ h
 
 ## Closing Remarks
 
-While the technology is too expensive for widespread usage in its current form — Levels cost \$199/month — I believe continuous glucose monitoring is one component in the future of personalized medicine. I hope scientists and technologists need to continue to better understand the benefits of continuous glucose monitoring in maintaining metabolic health and bring down the cost of bringing these devices to the masses.
+While the technology is too expensive for widespread usage in its current form — Levels cost \$199/month — I believe continuous glucose monitoring is one component in the future of personalized medicine. I hope scientists and technologists continue to better understand the benefits of continuous glucose monitoring in maintaining metabolic health and bring down the cost of bringing these devices to the masses.
 
 ## Notes
 
